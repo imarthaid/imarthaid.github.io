@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     font-family: 'Assistant', sans-serif;
+    background-color: black;
 }
 
 .carousel {
@@ -29,4 +30,10 @@ body {
 .nav-item:hover::after {
     width: 100%;
     transition: width .2s;
+}
+
+.about,
+.jumbotron {
+    bbackground: rgb(32, 32, 32);
+    background: radial-gradient(circle, rgba(32, 32, 32, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
