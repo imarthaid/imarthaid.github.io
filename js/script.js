@@ -4,3 +4,27 @@ $('.carousel').carousel({
     wrap: false, //looping kembali ke awal
     touch: true
 })
+
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});
+
+
+$('.page-scroll').on('click', function (e) {
+
+    var tujuan = $(this).attr('href');
+
+    var elemenTujuan = $(tujuan);
+
+    // console.log(elemenTujuan.offset().top);
+    // console.log($('html, body').scrollTop())
+
+    $('html , body').animate({
+        scrollTop: elemenTujuan.offset().top - 50
+    }, 3000);
+
+    e.preventDefault();
+});

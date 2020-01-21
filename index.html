@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="home">
 
 <head>
     <!-- Required meta tags -->
@@ -17,76 +17,78 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
         <div class="container">
-            <a class="navbar-brand" href="#">Andar Pratama</a>
+            <a class="navbar-brand px-3 nav-link page-scroll" href="#home">Andar Pratama</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item px-3 nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item px-3 nav-link" href="#">About</a>
-                    <a class="nav-item px-3 nav-link" href="#">Skill</a>
-                    <a class="nav-item px-3 nav-link" href="#">Portfolio</a>
-                    <a class="nav-item px-3 nav-link" href="#">Contact</a>
-                    <a class="nav-item px-3 nav-link" href="#">Pricing</a>
+                    <a class="nav-item px-3 nav-link page-scroll active" href="#home">Home</a>
+                    <a class="nav-item px-3 nav-link page-scroll" href="#about">About</a>
+                    <a class="nav-item px-3 nav-link page-scroll" href="#skills">Skill</a>
+                    <a class="nav-item px-3 nav-link page-scroll" href="#portfolio">Portfolio</a>
+                    <a class="nav-item px-3 nav-link page-scroll" href="#contact">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade mb-1" data-ride="carousel">
-        <div class="carousel-inner" style="height: 100%;">
-            <div class="carousel-item active">
-                <img src="img/01.jpeg" class="d-block w-100" alt="..." style="height: 100%;">
-            </div>
-            <div class="carousel-item">
-                <img src="img/02.jpeg" class="d-block w-100" alt="..." style="height: 100%;">
-            </div>
-            <div class="carousel-item">
-                <img src="img/01.jpeg" class="d-block w-100" alt="..." style="height: 100%;">
-            </div>
-        </div>
+
     </div>
 
-    <div class="title-me text-light text-center">
-        <h1 class="h1" style="color: #d3d3d3;">Web Designer - Front-end Developer - Back-end Deleoper</h1>
+    <div class="title-me text-dark text-center">
+        <h1 class="h1">Hello, I'm <span class="text-info font-weight-bold">Andar Pratama</span></h1>
+        <h1 class="h1">Web Designer <i class="far fa-window-minimize text-secondary"></i> Front-end Developer <i
+                class="far fa-window-minimize text-secondary"></i> Back-end
+            Deleoper</h1>
         <h5>I design and code beautifully simple things, and I love what I do.</h5>
     </div>
 
-    <div class="about bg-dark" id="about">
-        <div class="jumbotron text-center rounded-0 bg-dark text-light">
-            <div class="container">
-                <img src="img/andar-kotak.png" class="rounded-circle mb-4" alt="" style="width: 20%;">
-                <p class="lead" style="color: #d3d3d3;">Hallo semuanya, panggil saja saya <b>Andar </b>. Saya seorang
-                    Web Design
-                    dan Fullstack
-                    Web
-                    Developer. Awal saya menyukai pemograman web yaitu sejak saya masuk SMK dengan jurusan Desain
-                    Grafish, saya mulai mengenal Blog dan mulai mempelajari Web Programming. Lalu saya melanjutkan
-                    mempelajari Web Programming di Universitas Swasta di Tangerang mengambil Tehnik Informatika yang
-                    berfokus pada Web Development</p>
-                <hr class="my-4">
-                <p>Follow me on Social Media</p>
-                <a class="h2 py-1 px-2 text-secondary mr-2" href="https://www.facebook.com/m.amarta354" role="button"
-                    target="blank"><i class="fab fa-facebook-square"></i></a>
-                <a class="h2 py-1 px-2 text-secondary ml-5" href="https://www.instagram.com/imartha.id/" role="button"
-                    target="blank"><i class="fab fa-instagram"></i></a>
-                <a class="h2 py-1 px-2 text-secondary ml-5" href="https://github.com/imarthaid" role="button"
-                    target="blank"><i class="fab fa-github"></i></a>
-                <a class="h2 py-1 px-2 text-secondary ml-5"
-                    href="https://api.whatsapp.com/send?phone=6281283699257&text=Hai%20Andar,%20bisa%20bantu%20kami?"
-                    role="button" target="blank"><i class="fab fa-whatsapp"></i></a>
-            </div>
+    <div class="about section p-5" id="about">
+        <div class="container text-center mt-5">
+            <h2 class="text-center h2">About</h2>
+            <img src="img/andar-kotak.png" class="rounded-circle mb-4 shadow-sm " alt="" style="width: 20%;">
+            <p class="lead" style="color: #d3d3d3;">Hallo semuanya, panggil saja saya <b>Andar </b>. Saya seorang
+                Web Design
+                dan Fullstack
+                Web
+                Developer. Awal saya menyukai pemograman web yaitu sejak saya masuk SMK dengan jurusan Desain
+                Grafish, saya mulai mengenal Blog dan mulai mempelajari Web Programming. Lalu saya melanjutkan
+                mempelajari Web Programming di Universitas Swasta di Tangerang mengambil Tehnik Informatika yang
+                berfokus pada Web Development</p>
+            <hr class="my-4">
+            <p>Follow me on Social Media</p>
+            <a class="h2 py-1 px-2 text-secondary mr-2" href="https://www.facebook.com/m.amarta354" role="button"
+                target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a class="h2 py-1 px-2 text-secondary ml-5" href="https://www.instagram.com/imartha.id/" role="button"
+                target="blank"><i class="fab fa-instagram"></i></a>
+            <a class="h2 py-1 px-2 text-secondary ml-5" href="https://github.com/imarthaid" role="button"
+                target="blank"><i class="fab fa-github"></i></a>
+            <a class="h2 py-1 px-2 text-secondary ml-5"
+                href="https://api.whatsapp.com/send?phone=6281283699257&text=Hai%20Andar,%20bisa%20bantu%20kami?"
+                role="button" target="blank"><i class="fab fa-whatsapp"></i></a>
         </div>
     </div>
 
+    <div class="skills section" id="skills">
+
+    </div>
+
+    <div class="portfolio section" id="portfolio">
+
+    </div>
+
+    <div class="contact section" id="contact">
+
+    </div>
+
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
