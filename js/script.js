@@ -23,7 +23,7 @@ $('.page-scroll').on('click', function (e) {
     // console.log($('html, body').scrollTop())
 
     $('html , body').animate({
-        scrollTop: elemenTujuan.offset().top - 50
+        scrollTop: elemenTujuan.offset().top - 72
     }, 1000, 'swing');
 
     e.preventDefault();

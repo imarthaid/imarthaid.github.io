@@ -12,13 +12,44 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
+.about {
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6b6b6, #ffffff, #C6FFDD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C9D6FF, #ffffff, #C6FFDD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.portfolio {
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6b6b6, #ffffff, #C6FFDD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C9D6FF, #ffffff, #C6FFDD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.list-group-item-action:hover {
+    background-color: rgba(135, 186, 233, 0.1) !important;
+}
+
 .fixed-top.scrolled {
-    background: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .5);
     transition: background-color 200ms linear;
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .title-me {
@@ -36,7 +67,7 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background-color: #fff;
+    background-color: #000;
     transition: width .2s;
 }
 
@@ -60,6 +91,7 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact {
@@ -69,8 +101,37 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .list-group a.list-group-item {
     border: none !important;
+}
+
+
+
+
+/* ========================================== */
+
+@media only screen and (max-width: 500px) {
+    .title-me {
+        width: 400px;
+    }
+
+    .title-me h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .title-me h1.labell {
+        font-size: 16px;
+    }
+
+    .title-me h5 {
+        font-size: 12px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
 }
