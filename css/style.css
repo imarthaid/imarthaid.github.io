@@ -16,6 +16,10 @@ body {
 
 }
 
+.btn-us:hover {
+    background: linear-gradient(to right, #f7797d, #FBD786, rgb(34, 224, 110));
+}
+
 .about {
     background: #C6FFDD;
     /* fallback for old browsers */
@@ -114,10 +118,62 @@ img.profil {
 
 
 
+/* =========================================== */
+@media only screen and (max-width: 786px) {
+    .title-me {
+        width: 730px;
+    }
+
+    .title-me h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .title-me h1.labell {
+        font-size: 22px;
+    }
+
+    .title-me h5 {
+        font-size: 18px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    img.profil {
+        width: 50% !important;
+    }
+
+    p.lead {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .social-box a.h2 {
+        margin: 0 !important;
+        font-size: 26px;
+    }
+
+    .skills h5.d-block {
+        font-size: 13px !important;
+    }
+
+    .skills .row .progress {
+        height: 10px !important;
+    }
+
+    .skills .row .progress .progress-bar {
+        font-size: 10px;
+        line-height: 22px;
+    }
+}
+
+
 
 /* ========================================== */
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
     .title-me {
         width: 300px;
     }
@@ -164,5 +220,21 @@ img.profil {
     .skills .row .progress .progress-bar {
         font-size: 10px;
         line-height: 22px;
+    }
+
+    .modal-body .row {
+        height: 400px !important;
+    }
+
+    .modal-body .row .col-lg-4 span.badge {
+        padding: 3px 5px !important;
+    }
+
+    .modal-body .row .col-lg-8 .carousel {
+        height: 200px !important;
+    }
+
+    .modal-body .row .col-lg-8 .carousel .carousel-inner {
+        height: 200px !important;
     }
 }
