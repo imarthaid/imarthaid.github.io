@@ -81,7 +81,7 @@ body {
 }
 
 .section {
-    min-height: 900px;
+    min-height: 800px;
 }
 
 .skills {
@@ -108,14 +108,18 @@ body {
     border: none !important;
 }
 
+img.profil {
+    width: 20%;
+}
+
 
 
 
 /* ========================================== */
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
     .title-me {
-        width: 400px;
+        width: 300px;
     }
 
     .title-me h1 {
@@ -124,14 +128,41 @@ body {
     }
 
     .title-me h1.labell {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .title-me h5 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .portfolio-item {
         margin-bottom: 30px;
+    }
+
+    img.profil {
+        width: 50% !important;
+    }
+
+    p.lead {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .social-box a.h2 {
+        margin: 0 !important;
+        font-size: 26px;
+    }
+
+    .skills h5.d-block {
+        font-size: 13px !important;
+    }
+
+    .skills .row .progress {
+        height: 10px !important;
+    }
+
+    .skills .row .progress .progress-bar {
+        font-size: 10px;
+        line-height: 22px;
     }
 }
