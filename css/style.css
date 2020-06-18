@@ -9,6 +9,11 @@ body {
     background-color: #131927 !important;
 }
 
+.hukum {
+    height: 100%;
+    background-color: #131927 !important;
+}
+
 .btn-us:hover {
     background: linear-gradient(to right, #f7797d, #FBD786, rgb(34, 224, 110));
 }
